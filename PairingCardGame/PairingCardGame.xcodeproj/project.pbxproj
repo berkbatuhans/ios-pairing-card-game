@@ -10,6 +10,7 @@
 		121AABFA238F234200A75D8C /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AABF9238F234200A75D8C /* UIStoryboard+Extension.swift */; };
 		121AABFE238F288100A75D8C /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AABFD238F288100A75D8C /* GameViewModel.swift */; };
 		121AAC01238F28B600A75D8C /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AAC00238F28B600A75D8C /* GameProtocol.swift */; };
+		121AAC13238F2E5A00A75D8C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AAC12238F2E5A00A75D8C /* Card.swift */; };
 		12A83744238F18E900131473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A83743238F18E900131473 /* AppDelegate.swift */; };
 		12A83746238F18E900131473 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A83745238F18E900131473 /* SceneDelegate.swift */; };
 		12A83748238F18EA00131473 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A83747238F18EA00131473 /* GameViewController.swift */; };
@@ -23,6 +24,7 @@
 		121AABF9238F234200A75D8C /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
 		121AABFD238F288100A75D8C /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		121AAC00238F28B600A75D8C /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
+		121AAC12238F2E5A00A75D8C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		12A83740238F18E900131473 /* PairingCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairingCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A83743238F18E900131473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12A83745238F18E900131473 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,15 +47,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		121AABF6238F1FA300A75D8C /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-				121AAC05238F2A8A00A75D8C /* Game */,
-				121AABF7238F201800A75D8C /* Launch */,
-			);
-			name = Screens;
-			sourceTree = "<group>";
-		};
 		121AABF7238F201800A75D8C /* Launch */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,14 +80,40 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		121AAC05238F2A8A00A75D8C /* Game */ = {
+		121AAC0D238F2CEE00A75D8C /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				121AAC11238F2E2B00A75D8C /* Model */,
 				121AAC04238F2A5F00A75D8C /* ViewModel */,
 				121AAC02238F2A2800A75D8C /* Protocols */,
 				121AABFB238F260100A75D8C /* View */,
 			);
-			name = Game;
+			path = Game;
+			sourceTree = "<group>";
+		};
+		121AAC0E238F2D2100A75D8C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				121AAC0D238F2CEE00A75D8C /* Game */,
+				121AABF7238F201800A75D8C /* Launch */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		121AAC0F238F2D3200A75D8C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				12A83758238F1DB800131473 /* Extension */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		121AAC11238F2E2B00A75D8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				121AAC12238F2E5A00A75D8C /* Card.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		12A83737238F18E900131473 = {
@@ -116,19 +135,11 @@
 		12A83742238F18E900131473 /* PairingCardGame */ = {
 			isa = PBXGroup;
 			children = (
-				12A83757238F1DA900131473 /* Common */,
+				121AAC0F238F2D3200A75D8C /* Common */,
+				121AAC0E238F2D2100A75D8C /* Screens */,
 				12A8375B238F1DF500131473 /* SupportingFiles */,
-				121AABF6238F1FA300A75D8C /* Screens */,
 			);
 			path = PairingCardGame;
-			sourceTree = "<group>";
-		};
-		12A83757238F1DA900131473 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				12A83758238F1DB800131473 /* Extension */,
-			);
-			name = Common;
 			sourceTree = "<group>";
 		};
 		12A83758238F1DB800131473 /* Extension */ = {
@@ -229,6 +240,7 @@
 				12A83746238F18E900131473 /* SceneDelegate.swift in Sources */,
 				121AABFA238F234200A75D8C /* UIStoryboard+Extension.swift in Sources */,
 				121AAC01238F28B600A75D8C /* GameProtocol.swift in Sources */,
+				121AAC13238F2E5A00A75D8C /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
