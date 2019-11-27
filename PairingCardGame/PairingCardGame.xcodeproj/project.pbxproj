@@ -103,7 +103,7 @@
 		121AAC0F238F2D3200A75D8C /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				12A83758238F1DB800131473 /* Extension */,
+				121AAC15238F2EFC00A75D8C /* Extension */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -114,6 +114,15 @@
 				121AAC12238F2E5A00A75D8C /* Card.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		121AAC15238F2EFC00A75D8C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				12A83759238F1DD100131473 /* UICollectionViewCell+Extension.swift */,
+				121AABF9238F234200A75D8C /* UIStoryboard+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		12A83737238F18E900131473 = {
@@ -140,15 +149,6 @@
 				12A8375B238F1DF500131473 /* SupportingFiles */,
 			);
 			path = PairingCardGame;
-			sourceTree = "<group>";
-		};
-		12A83758238F1DB800131473 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				12A83759238F1DD100131473 /* UICollectionViewCell+Extension.swift */,
-				121AABF9238F234200A75D8C /* UIStoryboard+Extension.swift */,
-			);
-			path = Extension;
 			sourceTree = "<group>";
 		};
 		12A8375B238F1DF500131473 /* SupportingFiles */ = {
