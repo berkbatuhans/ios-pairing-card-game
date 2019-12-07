@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        MSAppCenter.start("01ff9ee3-49aa-453f-a921-a5afadb693c9", withServices:[
+          MSAnalytics.self,
+          MSCrashes.self
+        ])
+        
         window = UIWindow(frame: UIScreen.main.bounds)
         let view = GameViewController.instance()
         window!.rootViewController = view

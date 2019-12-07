@@ -11,6 +11,8 @@
 		121AABFE238F288100A75D8C /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AABFD238F288100A75D8C /* GameViewModel.swift */; };
 		121AAC01238F28B600A75D8C /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AAC00238F28B600A75D8C /* GameProtocol.swift */; };
 		121AAC13238F2E5A00A75D8C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AAC12238F2E5A00A75D8C /* Card.swift */; };
+		121AAC18238F388D00A75D8C /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AAC16238F388D00A75D8C /* CardCell.swift */; };
+		121AAC19238F388D00A75D8C /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 121AAC17238F388D00A75D8C /* CardCell.xib */; };
 		12A83744238F18E900131473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A83743238F18E900131473 /* AppDelegate.swift */; };
 		12A83746238F18E900131473 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A83745238F18E900131473 /* SceneDelegate.swift */; };
 		12A83748238F18EA00131473 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A83747238F18EA00131473 /* GameViewController.swift */; };
@@ -18,6 +20,9 @@
 		12A8374D238F18EB00131473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A8374C238F18EB00131473 /* Assets.xcassets */; };
 		12A83750238F18EB00131473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A8374E238F18EB00131473 /* LaunchScreen.storyboard */; };
 		12A8375A238F1DD100131473 /* UICollectionViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A83759238F1DD100131473 /* UICollectionViewCell+Extension.swift */; };
+		12F3CB91238F40D700C6E377 /* ArrayRandom+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F3CB90238F40D700C6E377 /* ArrayRandom+Extension.swift */; };
+		12F3CB93238F4CC600C6E377 /* GameCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F3CB92238F4CC600C6E377 /* GameCollectionView.swift */; };
+		6CD4BA0D8BCE0A849AF0503F /* Pods_PairingCardGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D412E6FFF0F6D19C93A5DFCF /* Pods_PairingCardGame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,8 @@
 		121AABFD238F288100A75D8C /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		121AAC00238F28B600A75D8C /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
 		121AAC12238F2E5A00A75D8C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		121AAC16238F388D00A75D8C /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		121AAC17238F388D00A75D8C /* CardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
 		12A83740238F18E900131473 /* PairingCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairingCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A83743238F18E900131473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12A83745238F18E900131473 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +41,11 @@
 		12A8374F238F18EB00131473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12A83751238F18EB00131473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12A83759238F1DD100131473 /* UICollectionViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extension.swift"; sourceTree = "<group>"; };
+		12F3CB90238F40D700C6E377 /* ArrayRandom+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArrayRandom+Extension.swift"; sourceTree = "<group>"; };
+		12F3CB92238F4CC600C6E377 /* GameCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionView.swift; sourceTree = "<group>"; };
+		65E2FE1F71EFE7481D4C6836 /* Pods-PairingCardGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PairingCardGame.debug.xcconfig"; path = "Target Support Files/Pods-PairingCardGame/Pods-PairingCardGame.debug.xcconfig"; sourceTree = "<group>"; };
+		D412E6FFF0F6D19C93A5DFCF /* Pods_PairingCardGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PairingCardGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B175DD110671E118AB4873 /* Pods-PairingCardGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PairingCardGame.release.xcconfig"; path = "Target Support Files/Pods-PairingCardGame/Pods-PairingCardGame.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,12 +53,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CD4BA0D8BCE0A849AF0503F /* Pods_PairingCardGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08A5754732D3FDB259C36AE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D412E6FFF0F6D19C93A5DFCF /* Pods_PairingCardGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		121AABF7238F201800A75D8C /* Launch */ = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +79,10 @@
 		121AABFB238F260100A75D8C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				12F3CB92238F4CC600C6E377 /* GameCollectionView.swift */,
 				12A83747238F18EA00131473 /* GameViewController.swift */,
 				12A83749238F18EA00131473 /* GameViewController.storyboard */,
+				121AAC1A238F389B00A75D8C /* CardCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -121,8 +144,18 @@
 			children = (
 				12A83759238F1DD100131473 /* UICollectionViewCell+Extension.swift */,
 				121AABF9238F234200A75D8C /* UIStoryboard+Extension.swift */,
+				12F3CB90238F40D700C6E377 /* ArrayRandom+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		121AAC1A238F389B00A75D8C /* CardCell */ = {
+			isa = PBXGroup;
+			children = (
+				121AAC16238F388D00A75D8C /* CardCell.swift */,
+				121AAC17238F388D00A75D8C /* CardCell.xib */,
+			);
+			path = CardCell;
 			sourceTree = "<group>";
 		};
 		12A83737238F18E900131473 = {
@@ -130,6 +163,8 @@
 			children = (
 				12A83742238F18E900131473 /* PairingCardGame */,
 				12A83741238F18E900131473 /* Products */,
+				289326FA76B364FA1F9F35C0 /* Pods */,
+				08A5754732D3FDB259C36AE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +197,16 @@
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
+		289326FA76B364FA1F9F35C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65E2FE1F71EFE7481D4C6836 /* Pods-PairingCardGame.debug.xcconfig */,
+				E1B175DD110671E118AB4873 /* Pods-PairingCardGame.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12A83754238F18EB00131473 /* Build configuration list for PBXNativeTarget "PairingCardGame" */;
 			buildPhases = (
+				9341CFE786EBC90104DA181D /* [CP] Check Pods Manifest.lock */,
 				12A8373C238F18E900131473 /* Sources */,
 				12A8373D238F18E900131473 /* Frameworks */,
 				12A8373E238F18E900131473 /* Resources */,
@@ -223,24 +269,53 @@
 				12A83750238F18EB00131473 /* LaunchScreen.storyboard in Resources */,
 				12A8374D238F18EB00131473 /* Assets.xcassets in Resources */,
 				12A8374B238F18EA00131473 /* GameViewController.storyboard in Resources */,
+				121AAC19238F388D00A75D8C /* CardCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9341CFE786EBC90104DA181D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PairingCardGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12A8373C238F18E900131473 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F3CB93238F4CC600C6E377 /* GameCollectionView.swift in Sources */,
 				121AABFE238F288100A75D8C /* GameViewModel.swift in Sources */,
 				12A83748238F18EA00131473 /* GameViewController.swift in Sources */,
 				12A83744238F18E900131473 /* AppDelegate.swift in Sources */,
 				12A8375A238F1DD100131473 /* UICollectionViewCell+Extension.swift in Sources */,
 				12A83746238F18E900131473 /* SceneDelegate.swift in Sources */,
 				121AABFA238F234200A75D8C /* UIStoryboard+Extension.swift in Sources */,
+				12F3CB91238F40D700C6E377 /* ArrayRandom+Extension.swift in Sources */,
 				121AAC01238F28B600A75D8C /* GameProtocol.swift in Sources */,
 				121AAC13238F2E5A00A75D8C /* Card.swift in Sources */,
+				121AAC18238F388D00A75D8C /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,9 +457,11 @@
 		};
 		12A83755238F18EB00131473 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E2FE1F71EFE7481D4C6836 /* Pods-PairingCardGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62MWU34Z2V;
 				INFOPLIST_FILE = "$(SRCROOT)/PairingCardGame/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -399,9 +476,11 @@
 		};
 		12A83756238F18EB00131473 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B175DD110671E118AB4873 /* Pods-PairingCardGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62MWU34Z2V;
 				INFOPLIST_FILE = "$(SRCROOT)/PairingCardGame/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
